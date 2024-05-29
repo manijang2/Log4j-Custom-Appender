@@ -1,6 +1,2 @@
-spring:
-  application:
-    name: Log4jCustomAppender
-
 logging:
   config: classpath:log4j/log4j.xml
