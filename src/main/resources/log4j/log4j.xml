@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration packages="com.demo.appender">
+    <appenders>
+        <CustomAppender name="CustomAppender"/>
+    </appenders>
+    <loggers>
+        <root level="INFO">
+            <appender-ref ref="CustomAppender"/>
+        </root>
+    </loggers>
+</configuration>
